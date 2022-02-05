@@ -5,61 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
-      <a href="#"
-        ><img src="./image/logo.jpg" alt="logo" width="100" height="30"
+      <a href="#" class="link"><img src="./image/logo.jpg" alt="logo" width="100" height="30"
       /></a>
-      <nav>
-        <ul>
-          <li><a href="#start">Start now</a></li>
-          <li><a href="#courses"></a>Our courses</li>
-          <li><a href="#graduates"></a>Graduates</li>
-          <li><a href="#facts"></a>IT quick facts</li>
-          <li><a href="#help"></a>Need help?</li>
+      <nav class="nav">
+        <ul class="list">
+          <li><a href="#start" class="link nav-link">Start now</a></li>
+          <li><a href="#courses" class="link nav-link">Our courses</a></li>
+          <li><a href="#graduates" class="link nav-link">Graduates</a></li>
+          <li><a href="#facts" class="link nav-link">IT quick facts</a></li>
+          <li><a href="#help" class="link nav-link">Need help?</a></li>
         </ul>
       </nav>
     </header>
     <main>
+        <!--Hero-->
       <section class="hero">
-        <h1>GOIT</h1>
-        <p>
-          Imagine yourself going from a dead-end job to an exciting high-income
-          career in an industry that is constantly evolving. Sounds great,
-          doesn’t it?
-        </p>
+        <h1 class="title hero-title">GOIT</h1>
+        <p>Imagine yourself going from a dead-end job to an exciting high-income career in an industry that is constantly evolving. Sounds great, doesn’t it?</p>
         <p>A New Career. A New You.</p>
         <p>No time to lose: GO IT for something new!</p>
       </section>
-      <section>
-        <h2>Start your new career with GOIT</h2>
-        <ul>
+      <!--Advantage-->
+      <section class="advantage">
+        <h2 class="section-title title">Start your new career with GOIT</h2>
+        <ul class="list">
           <li>
-            <h3>Our mentors</h3>
+            <h3 class="title subtitle">Our mentors</h3>
             <p>Pros in what they do and you get to learn from them</p>
           </li>
           <li>
-            <h3>Our students</h3>
+            <h3 class="title subtitle">Our students</h3>
             <p>Work on real-life projects, no boring stuff</p>
           </li>
           <li>
-            <h3>Our goal</h3>
+            <h3 class="title subtitle">Our goal</h3>
             <p>
               Make sure that you go from zero to job-ready and land a career in
               IT with a salary that you deserve
             </p>
           </li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
-            <p><span>3817</span>graduates</p>
+            <p class="title"><span class="accent-number">3817</span> graduates</p>
           </li>
           <li>
-            <p><span>2079</span>students</p>
+            <p class="title"><span class="accent-number">2079</span> students</p>
           </li>
           <li>
-            <p><span>$70k</span>average salary after graduation</p>
+            <p class="title"><span class="accent-number">$70k</span> average salary after graduation</p>
           </li>
         </ul>
         <img
@@ -69,38 +68,40 @@
           height="550"
         />
       </section>
-      <section>
-        <h2>GOIT Courses</h2>
+      <!--Course programs-->
+      <section class="courses">
+        <h2 class="section-title title">GOIT Courses</h2>
         <p>
           We are constantly improving each course, based on the experience and
           feedback of our graduates. Our programs are pure knowledge and
           practice, seasoned with interesting projects and gamification.
         </p>
-        <ul>
+        <ul class="list">
           <li>
-            <p>Python For Data Science</p>
+            <p class="name-course">Python For Data Science</p>
           </li>
           <li>
-            <p>Full stack from scratch</p>
+            <p class="name-course">Full stack from scratch</p>
           </li>
           <li>
-            <p>7 day free challenge</p>
+            <p class="name-course">7 day free challenge</p>
           </li>
           <li>
-            <p>GO Java</p>
+            <p class="name-course">GO Java</p>
           </li>
           <li>
-            <p>GO QA</p>
+            <p class="name-course">GO QA</p>
           </li>
           <li>
-            <p>IT Project Manager</p>
+            <p class="name-course">IT Project Manager</p>
           </li>
         </ul>
       </section>
-      <section>
-          <h2>GOIT</h2>
-          <p>IT companies that hire our graduates</p>
-          <ul>
+      <!--Companies for job-->
+      <section class="companies">
+          <h2 class="title companies-title">GOIT</h2>
+          <p class="companies-text">IT companies that hire our graduates</p>
+          <ul class="list">
               <li>logo</li>
               <li>logo</li>
               <li>logo</li>
@@ -110,48 +111,48 @@
               <li>logo</li>
           </ul>
       </section>
-      <section>
-          <h2>IT in the USA</h2>
-          <ul>
+      <!--Statistics-->
+      <section class="statistics">
+          <h2 class="title statistics-title">IT in the USA</h2>
+          <ul class="list">
               <li>
-                  <p><span>$80k</span>Salary of a Software Developer on average/p>
+                  <p class="statistics-text"><span class="statistics-accent">$80k</span><br> Salary of a Software Developer on average</p>
               </li>
               <li>
-                  <p><span>32%</span>US share of the Global Tech market</p>
+                  <p class="statistics-text"><span class="statistics-accent">32%</span><br>US share of the Global Tech market</p><br>
               </li>
               <li>
-                  <p><span>3.6 Mio</span>Jobs on the IT Job Market in the USA</p>
+                  <p class="statistics-text"><span class="statistics-accent">3.6 Mio</span><br>Jobs on the IT Job Market in the USA</p>
               </li>
               <li>
-                  <p><span>$1.9 bn</span>Economic impact of the tech industry</p>
+                  <p class="statistics-text"><span class="statistics-accent">$1.9 bn</span><br>Economic impact of the tech industry</p>
               </li>
               <li>
-                  <p><span>504k</span>Software developers hired in the last decade</p>
+                  <p class="statistics-text"><span class="statistics-accent">504k</span><br>Software developers hired in the last decade</p>
               </li>
           </ul>
       </section>
     </main>
     <footer>
-        <a href="#"
-        ><img src="./image/logo.jpg" alt="logo" width="100" height="30"
+        <a href="#" class="link"><img src="./image/logo.jpg" alt="logo" width="100" height="30"
       /></a>
-      <ul>
-          <li><a href="#" target="_blank" rel="noopener noreferrer">Terms and conditions,</a></li>
-          <li><a href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+      <ul class="list">
+          <li><a href="#" target="_blank" rel="noopener noreferrer" class="link conditions-link">Terms and conditions,</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer" class="link conditions-link">Privacy Policy</a></li>
       </ul>
-      <h3>Contact GoIT:</h3>
-      <ul>
-        <li><a href="tel:4065550120">(406) 555-0120</a></li>
-        <li><a href="mailto:alma.lawson@example.com">alma.lawson@example.com</a></li>
+      <h3 class="title footer-title">Contact GoIT:</h3>
+      <ul class="list address">
+        <li><a href="tel:4065550120" class="link address-link">(406) 555-0120</a></li>
+        <li><a href="mailto:alma.lawson@example.com" class="link address-link">alma.lawson@example.com</a></li>
     </ul>
-        <button type="button">Connect with Us</button>
-        <ul>
-            <li><a href="" target="_blank" rel="noopener noreferrer">social-icon</a></li>
-            <li><a href="" target="_blank" rel="noopener noreferrer">social-icon</a></li>
-            <li><a href="" target="_blank" rel="noopener noreferrer">social-icon</a></li>
-            <li><a href="" target="_blank" rel="noopener noreferrer">social-icon</a></li>
+        <button type="button" class="btn-footer">Connect with Us</button>
+        <ul class="list">
+            <li><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
         </ul>
-        <ul>
+        <ul class="list">
             <li>icon</li>
             <li>icon</li>
             <li>icon</li>

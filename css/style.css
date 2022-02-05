@@ -1,0 +1,150 @@
+:root {
+    --main-text-color: #66809A;
+    --black-text-color: #0B1033;
+    --white-text-color: #ffffff;
+    --accent-text-color: #0B1033;
+    --other-text-color: #202742;
+    --number-color: #4AAB3D;
+    --main-background-color: #ffffff;
+    --secondary-background-color: #EDF2FD;
+    --background-btn: #4141E4;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+/*----Common----*/
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    color: var(--black-text-color);
+    font-weight: 700;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+
+/*----Header----*/
+
+.nav-link {
+    text-transform: capitalize;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-text-color);
+}
+
+/*----Header----*/
+
+.hero-title {
+    font-size: 180px;
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+
+/*----Advantage----*/
+.subtitle {
+    font-size: inherit;
+}
+
+.accent-number {
+    color: var(--number-color);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.5;
+}
+
+/*----Course programs----*/
+.name-course {
+    color: var(--accent-text-color);
+}
+
+/*----Companies for job----*/
+.companies-title {
+    font-size: 144px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.companies-text {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--black-text-color)
+}
+
+/*----Statistics----*/
+.statistics {
+    background-color: grey;
+}
+
+.statistics-title {
+    color: var(--white-text-color);
+    font-size: 48px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.statistics-text {
+    color: var(--white-text-color);
+    text-align: center;
+}
+
+.statistics-accent {
+    color: var(--white-text-color);
+    font-size: 64px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/*----Footer----*/
+.conditions-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-title {
+    font-size: inherit;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.address-link {
+    color: var(--black-text-color);
+    font-weight: 500;
+    font-size: inherit;
+    text-align: center;
+}
+
+.btn-footer {
+    color: var(--white-text-color);
+    background: var(--background-btn);
+    font-weight: 700;
+    font-size: inherit;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
