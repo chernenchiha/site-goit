@@ -6,43 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header>
-      <a href="#" class="link"><img src="./image/logo.jpg" alt="logo" width="100" height="30"
+    <div class="background">
+    <header class="header">
+      <div class="container header-container">
+      <a href="#" class="link logo-link"><img src="./image/logo.jpg" alt="logo" width="100" height="30"
       /></a>
       <nav class="nav">
-        <ul class="list">
-          <li><a href="#start" class="link nav-link">Start now</a></li>
-          <li><a href="#courses" class="link nav-link">Our courses</a></li>
-          <li><a href="#graduates" class="link nav-link">Graduates</a></li>
-          <li><a href="#facts" class="link nav-link">IT quick facts</a></li>
-          <li><a href="#help" class="link nav-link">Need help?</a></li>
+        <ul class="list nav-list">
+          <li class="nav-item"><a href="#start" class="link nav-link">Start now</a></li>
+          <li class="nav-item"><a href="#courses" class="link nav-link">Our courses</a></li>
+          <li class="nav-item"><a href="#graduates" class="link nav-link">Graduates</a></li>
+          <li class="nav-item"><a href="#facts" class="link nav-link">IT quick facts</a></li>
+          <li class="nav-item"><a href="#help" class="link nav-link">Need help?</a></li>
         </ul>
       </nav>
+    </div>
     </header>
     <main>
         <!--Hero-->
       <section class="hero">
-        <h1 class="title hero-title">GOIT</h1>
-        <p>Imagine yourself going from a dead-end job to an exciting high-income career in an industry that is constantly evolving. Sounds great, doesn’t it?</p>
-        <p>A New Career. A New You.</p>
-        <p>No time to lose: GO IT for something new!</p>
+        <div class="container hero-container">
+          <div class="hero-content-container">
+              <h1 class="title hero-title">GOIT</h1>
+              <p class="hero-text">Imagine yourself going from a dead-end job to an exciting high-income career in an industry that is constantly evolving. Sounds great, doesn’t it?</p>
+              <p class="hero-label">No time to lose: GO IT for something new!</p>
+          </div>
+          <div class="hero-image-container">
+              <img src="./image/hero-img.png" alt="girl" width="520" height="571">
+              <!-- <p>New Career. A New You.</p> -->
+          </div>
+      </div>
       </section>
+    </div>
       <!--Advantage-->
       <section class="advantage">
+        <div class="container advantage-container">
+          
+          <ul class="list advantage-statistics-list">
+          <li class="advantage-statistics-item">
+            <p class="title"><span class="accent-number">3817<br></span> Graduates</p>
+          </li>
+          <li class="advantage-statistics-item">
+            <p class="title"><span class="accent-number">2079<br></span> Students</p>
+          </li>
+          <li class="advantage-statistics-item">
+            <p class="title"><span class="accent-number">$70k<br></span> Average Salary<br>After Graduation</p>
+          </li>
+        </ul>
+     
+              <img class="advantage-image"
+          src="./image/students.jpg"
+          alt="students"
+          width="470"
+          height="550"
+        />
+        <div class="advantage-description">
         <h2 class="section-title title">Start your new career with GOIT</h2>
-        <ul class="list">
-          <li>
+        <ul class="list advantage-description-list">
+          <li class="advantage-description-item">
             <h3 class="title subtitle">Our mentors</h3>
             <p>Pros in what they do and you get to learn from them</p>
           </li>
-          <li>
+          <li class="advantage-description-item">
             <h3 class="title subtitle">Our students</h3>
             <p>Work on real-life projects, no boring stuff</p>
           </li>
-          <li>
+          <li class="advantage-description-item">
             <h3 class="title subtitle">Our goal</h3>
             <p>
               Make sure that you go from zero to job-ready and land a career in
@@ -50,26 +83,12 @@
             </p>
           </li>
         </ul>
-        <ul class="list">
-          <li>
-            <p class="title"><span class="accent-number">3817</span> graduates</p>
-          </li>
-          <li>
-            <p class="title"><span class="accent-number">2079</span> students</p>
-          </li>
-          <li>
-            <p class="title"><span class="accent-number">$70k</span> average salary after graduation</p>
-          </li>
-        </ul>
-        <img
-          src="./image/students.jpg"
-          alt="students"
-          width="470"
-          height="550"
-        />
+      </div>
+      </div>
       </section>
       <!--Course programs-->
       <section class="courses">
+        <div class="container">
         <h2 class="section-title title">GOIT Courses</h2>
         <p>
           We are constantly improving each course, based on the experience and
@@ -96,9 +115,11 @@
             <p class="name-course">IT Project Manager</p>
           </li>
         </ul>
+      </div>
       </section>
       <!--Companies for job-->
       <section class="companies">
+        <div class="container">
           <h2 class="title companies-title">GOIT</h2>
           <p class="companies-text">IT companies that hire our graduates</p>
           <ul class="list">
@@ -110,55 +131,71 @@
               <li>logo</li>
               <li>logo</li>
           </ul>
+        </div>
       </section>
       <!--Statistics-->
       <section class="statistics">
+        <div class="container statistics-container">
           <h2 class="title statistics-title">IT in the USA</h2>
-          <ul class="list">
-              <li>
-                  <p class="statistics-text"><span class="statistics-accent">$80k</span><br> Salary of a Software Developer on average</p>
+          <ul class="list statistics-list">
+              <li class="statistics-item">
+                  <p class="statistics-text statistics-accent">$80k</p>
+                  <p class="statistics-text">Salary of a Software Developer on average</p>
               </li>
-              <li>
-                  <p class="statistics-text"><span class="statistics-accent">32%</span><br>US share of the Global Tech market</p><br>
+              <li class="statistics-item">
+                  <p class="statistics-text statistics-accent">32%</p>
+                  <p class="statistics-text">US share of the Global<br> Tech market</p>
               </li>
-              <li>
-                  <p class="statistics-text"><span class="statistics-accent">3.6 Mio</span><br>Jobs on the IT Job Market in the USA</p>
+              <li class="statistics-item">
+                  <p class="statistics-text statistics-accent">3.6 Mio</p>
+                  <p class="statistics-text">Jobs on the IT Job Market in the USA</p>
               </li>
-              <li>
-                  <p class="statistics-text"><span class="statistics-accent">$1.9 bn</span><br>Economic impact of the tech industry</p>
+              <li class="statistics-item">
+                  <p class="statistics-text statistics-accent">1.9 bn</p>
+                  <p class="statistics-text">Economic impact of the tech industry</p>
               </li>
-              <li>
-                  <p class="statistics-text"><span class="statistics-accent">504k</span><br>Software developers hired in the last decade</p>
+              <li class="statistics-item">
+                  <p class="statistics-text statistics-accent">504k</p>
+                  <p class="statistics-text">Software developers hired in the last decade</p>
               </li>
           </ul>
+        </div>
       </section>
     </main>
     <footer>
-        <a href="#" class="link"><img src="./image/logo.jpg" alt="logo" width="100" height="30"
+      <div class="container footer-container">
+        <div class="footer-conditions">
+        <a href="#" class="link footer-logo"><img src="./image/logo.jpg" alt="logo" width="100" height="30"
       /></a>
-      <ul class="list">
-          <li><a href="#" target="_blank" rel="noopener noreferrer" class="link conditions-link">Terms and conditions,</a></li>
-          <li><a href="#" target="_blank" rel="noopener noreferrer" class="link conditions-link">Privacy Policy</a></li>
+      <ul class="list footer-conditions-list">
+          <li><a href="#" target="_blank" rel="noopener noreferrer" class="link conditions-link footer-conditions-link">Terms and conditions,</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer" class="link conditions-link footer-conditions-link">Privacy Policy</a></li>
       </ul>
+    </div>
+    <div class="footer-contacts">
       <h3 class="title footer-title">Contact GoIT:</h3>
       <ul class="list address">
-        <li><a href="tel:4065550120" class="link address-link">(406) 555-0120</a></li>
-        <li><a href="mailto:alma.lawson@example.com" class="link address-link">alma.lawson@example.com</a></li>
+        <li class="address-item"><a href="tel:4065550120" class="link address-link">(406) 555-0120</a></li>
+        <li class="address-item"><a href="mailto:alma.lawson@example.com" class="link address-link">alma.lawson@example.com</a></li>
     </ul>
         <button type="button" class="btn-footer">Connect with Us</button>
-        <ul class="list">
-            <li><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
-            <li><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
-            <li><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
-            <li><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
+      </div>
+        <div class="footer-icon">
+        <ul class="list footer-social-icon-list">
+            <li class="footer-social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
+            <li class="footer-social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
+            <li class="footer-social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
+            <li class="footer-social-icon-item"><a href="" target="_blank" rel="noopener noreferrer" class="link">social-icon</a></li>
         </ul>
-        <ul class="list">
-            <li>icon</li>
-            <li>icon</li>
-            <li>icon</li>
-            <li>icon</li>
-            <li>icon</li>
+        <ul class="list footer-icon-list">
+            <li class="footer-icon-item">icon</li>
+            <li class="footer-icon-item">icon</li>
+            <li class="footer-icon-item">icon</li>
+            <li class="footer-icon-item">icon</li>
+            <li class="footer-icon-item">icon</li>
         </ul>
+      </div>
+      </div>
     </footer>
   </body>
 </html>
